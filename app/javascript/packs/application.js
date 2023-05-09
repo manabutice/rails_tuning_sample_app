@@ -12,7 +12,14 @@ import fontawesome from '@fortawesome/fontawesome'
 import faSolid from '@fortawesome/fontawesome-free-solid'
 import faRegular from '@fortawesome/fontawesome-free-regular'
 import faBrands from '@fortawesome/fontawesome-free-brands'
+import Rails from "@rails/ujs"
+import Turbolinks from "turbolinks"
+import * as ActiveStorage from "@rails/activestorage"
+import "channels"
 
+Rails.start()
+Turbolinks.start()
+ActiveStorage.start()
 fontawesome.library.add(faSolid, faRegular, faBrands)
 
 fontawesome.dom.i2svg()
