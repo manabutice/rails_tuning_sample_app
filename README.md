@@ -1,5 +1,6 @@
 # README
-
+チューニング中
+Completed 200 OK in 46949ms (Views: 503.1ms | ActiveRecord: 2914.5ms | Allocations: 3894114)
 ## Introduction
 N+1対策の知識は高負荷railsアプリケーション開発に必須のスキルです。
 市場のrails案件は高負荷(急成長サービス、大規模サービス、高トラフィックサービス)も多く、また、今は小規模でも急成長する可能性もあります。
